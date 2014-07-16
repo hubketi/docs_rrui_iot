@@ -3,8 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Simple Document Tutorial
+Welcome to RRUI IOT DOCS
 ========================
+
+RRUI documentation for the RRUI user. It supports Spnhinx docs wirtten with reStructuredText
+
+
 
 Another simple header
 =====================
@@ -21,7 +25,7 @@ Guide
 .. toctree::
    :maxdepth: 2
 
-   license
+   getting_started
    help
 
 Indices and tables
