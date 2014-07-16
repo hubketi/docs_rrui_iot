@@ -21,6 +21,10 @@ Here is some text::
   >> hello
 
 
+
+Guide
+^^^^^
+
 .. toctree::
    :maxdepth: 2
 
