@@ -4,8 +4,8 @@ API
 This is the RRUI IOT API documentation.
 
 
-Guide
-^^^^^
+Weather Station
+^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 2
