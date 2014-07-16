@@ -1,9 +1,16 @@
 Weather Station
 ===============
 
+RRUI Weather Station Support only one Method
 
-Getting Started
-^^^^^^^^^^^^^^^
+Get.
+
+
+GET
+^^^
+
+
+
 
 
 
