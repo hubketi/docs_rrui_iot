@@ -6,7 +6,9 @@
 Welcome to RRUI IOT DOCS
 ========================
 
-RRUI documentation for the RRUI user. It supports Spnhinx docs wirtten with reStructuredText
+RRUI documentation for the RRUI user. 
+
+It supports Spnhinx docs wirtten with reStructuredText
 
 
 
@@ -26,12 +28,4 @@ Guide
    :maxdepth: 2
 
    getting_started
-   help
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   support
