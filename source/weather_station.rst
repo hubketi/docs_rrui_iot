@@ -1,15 +1,16 @@
 Weather Station
 ===============
 
-RRUI Weather Station Support only one Method
+RRUI IOT Support Weather Station Api
 
-Weahter Medhod
-^^^^^^^^^^^^^^
+Weather Station Medhod
+^^^^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 2
 
    ws_getuser
+   ws_devicelist
 
 
 

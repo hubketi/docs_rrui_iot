@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Weather Station &mdash; rrui_iot 0.0.1 documentation</title>
+    <title>Device List &mdash; rrui_iot 0.0.1 documentation</title>
     
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -24,9 +24,9 @@
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="top" title="rrui_iot 0.0.1 documentation" href="index.html" />
-    <link rel="up" title="API" href="api.html" />
-    <link rel="next" title="GETUSER" href="ws_getuser.html" />
-    <link rel="prev" title="API" href="api.html" /> 
+    <link rel="up" title="Weather Station" href="weather_station.html" />
+    <link rel="next" title="Support" href="support.html" />
+    <link rel="prev" title="GETUSER" href="ws_getuser.html" /> 
   </head>
   <body>
     <div class="related">
@@ -36,13 +36,14 @@
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="ws_getuser.html" title="GETUSER"
+          <a href="support.html" title="Support"
              accesskey="N">next</a> |</li>
         <li class="right" >
-          <a href="api.html" title="API"
+          <a href="ws_getuser.html" title="GETUSER"
              accesskey="P">previous</a> |</li>
         <li><a href="index.html">rrui_iot 0.0.1 documentation</a> &raquo;</li>
-          <li><a href="api.html" accesskey="U">API</a> &raquo;</li> 
+          <li><a href="api.html" >API</a> &raquo;</li>
+          <li><a href="weather_station.html" accesskey="U">Weather Station</a> &raquo;</li> 
       </ul>
     </div>  
 
@@ -51,30 +52,31 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="weather-station">
-<h1>Weather Station<a class="headerlink" href="#weather-station" title="Permalink to this headline">¶</a></h1>
-<p>RRUI IOT Support Weather Station Api</p>
-<div class="section" id="weather-station-medhod">
-<h2>Weather Station Medhod<a class="headerlink" href="#weather-station-medhod" title="Permalink to this headline">¶</a></h2>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="ws_getuser.html">GETUSER</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="ws_getuser.html#resource-url">Resource URL</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ws_getuser.html#medhod">Medhod</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ws_getuser.html#required">Required</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ws_getuser.html#parameters">Parameters</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ws_getuser.html#example-request">Example request</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="ws_devicelist.html">Device List</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="ws_devicelist.html#resource-url">Resource URL</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ws_devicelist.html#medhod">Medhod</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ws_devicelist.html#required">Required</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ws_devicelist.html#parameters">Parameters</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ws_devicelist.html#example-request">Example request</a></li>
-</ul>
-</li>
-</ul>
+  <div class="section" id="device-list">
+<h1>Device List<a class="headerlink" href="#device-list" title="Permalink to this headline">¶</a></h1>
+<p>The method devicelist returns the list of devices owned by the user, and their modules.</p>
+<div class="section" id="resource-url">
+<h2>Resource URL<a class="headerlink" href="#resource-url" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://localhost/api/ws/devicelist">http://localhost/api/ws/devicelist</a></p>
+</div>
+<div class="section" id="medhod">
+<h2>Medhod<a class="headerlink" href="#medhod" title="Permalink to this headline">¶</a></h2>
+<p>GET or POST</p>
+</div>
+<div class="section" id="required">
+<h2>Required<a class="headerlink" href="#required" title="Permalink to this headline">¶</a></h2>
+<p>uuid</p>
+</div>
+<div class="section" id="parameters">
+<h2>Parameters<a class="headerlink" href="#parameters" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><div class="highlight"><pre>UUID   Your UUID
+</pre></div>
+</div>
+</div>
+<div class="section" id="example-request">
+<h2>Example request<a class="headerlink" href="#example-request" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><div class="highlight"><pre>GET /api/ws/devicelist?uuid=[YourUUID]
+</pre></div>
 </div>
 </div>
 </div>
@@ -87,21 +89,25 @@
         <div class="sphinxsidebarwrapper">
   <h3><a href="index.html">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">Weather Station</a><ul>
-<li><a class="reference internal" href="#weather-station-medhod">Weather Station Medhod</a></li>
+<li><a class="reference internal" href="#">Device List</a><ul>
+<li><a class="reference internal" href="#resource-url">Resource URL</a></li>
+<li><a class="reference internal" href="#medhod">Medhod</a></li>
+<li><a class="reference internal" href="#required">Required</a></li>
+<li><a class="reference internal" href="#parameters">Parameters</a></li>
+<li><a class="reference internal" href="#example-request">Example request</a></li>
 </ul>
 </li>
 </ul>
 
   <h4>Previous topic</h4>
-  <p class="topless"><a href="api.html"
-                        title="previous chapter">API</a></p>
-  <h4>Next topic</h4>
   <p class="topless"><a href="ws_getuser.html"
-                        title="next chapter">GETUSER</a></p>
+                        title="previous chapter">GETUSER</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="support.html"
+                        title="next chapter">Support</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
-    <li><a href="_sources/weather_station.txt"
+    <li><a href="_sources/ws_devicelist.txt"
            rel="nofollow">Show Source</a></li>
   </ul>
 <div id="searchbox" style="display: none">
@@ -128,13 +134,14 @@
           <a href="genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="ws_getuser.html" title="GETUSER"
+          <a href="support.html" title="Support"
              >next</a> |</li>
         <li class="right" >
-          <a href="api.html" title="API"
+          <a href="ws_getuser.html" title="GETUSER"
              >previous</a> |</li>
         <li><a href="index.html">rrui_iot 0.0.1 documentation</a> &raquo;</li>
-          <li><a href="api.html" >API</a> &raquo;</li> 
+          <li><a href="api.html" >API</a> &raquo;</li>
+          <li><a href="weather_station.html" >Weather Station</a> &raquo;</li> 
       </ul>
     </div>
     <div class="footer">
