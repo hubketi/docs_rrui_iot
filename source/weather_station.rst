@@ -30,17 +30,16 @@ uuid
 Parameters
 ^^^^^^^^^^
 
-The next paragraph is a code sample::
+::
 
-uuid	Your uuid
-
+ UUID	Your UUID 
 
 Example request
 ^^^^^^^^^^^^^^^
 
-The next pragraph is a code sample::
+::
 
-GET /api/ws/getuser?uuid=[YourUUID]
+ GET /api/ws/getuser?uuid=[YourUUID]
 
 
 
