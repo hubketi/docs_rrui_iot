@@ -29,5 +29,6 @@ Guide
    :maxdepth: 2
 
    getting_started
+   getting_auth
    api
    support
